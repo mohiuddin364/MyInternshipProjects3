@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .product-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .product-info {
+            text-align: center;
+        }
+
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .product-price {
+            font-size: 20px;
+            color: #e44d26; /* E-commerce brand color for price */
+            font-weight: bold;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e44d26; /* E-commerce brand color for CTA button */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        .navigation-links {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .navigation-link {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #e4e4e4;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sultan dreses</h1>
+    </header>
+
+    <div class="product-container">
+        <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/j/o/t/m-black-formal-shirt-m-atlanta-impex-original-imagghhfcvmbpgct.jpeg?q=70&crop=false" alt="immage" class="immage">
+        <div class="product-info">
+            <div class="product-title">Product Name</div>
+            <div class="product-description">
+              <div>SOLSTICE</div> 
+              Men Regular Fit Solid Cut Away Collar Casual Shirt
+            </div>
+            <div class="product-price">$99.99</div>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+    </div>
+
+    <div class="navigation-links">
+        <a href="#" class="navigation-link">Home</a>
+        <a href="#" class="navigation-link">Categories</a>
+        <a href="#" class="navigation-link">Contact</a>
+    </div>
+
+</body>
+</html>
